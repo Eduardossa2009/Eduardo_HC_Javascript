@@ -20,11 +20,5 @@ function adicionaAluno (estudantes, aluno, nota) {
 
 adicionaAluno(alunos, "Kyle", 57)
 
-let counter = 0
-while (counter < alunos.length) {
-    document.write(alunos[counter].nome + ' ' + alunos[counter].nota + "<br>");
-    counter++;
-}
-
 document.write("A média da turma é de: ");
 document.write(calcularMediaNotas(alunos).toString());
