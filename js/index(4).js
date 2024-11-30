@@ -3,15 +3,17 @@ function maxNumbers (x,y) {
     let y = parseInt(prompt("Diga outro número:"));
 }
 
+while (x != y) {
 if (x != y,x > y) {
     console.log("O primeiro número é maior.");
-}
-else if (x == y) { 
-    console.log("Os dois números são iguais");
 }
 else if (x != y,x < y) {
     console.log("O segundo número é maior.");
 }
-else {
-    console.log("Erro");
+}
+
+while (x == y) {
+if (x == y) { 
+    console.log("Os dois números são iguais");z
+}
 }
