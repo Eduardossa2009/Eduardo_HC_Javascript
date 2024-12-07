@@ -1,3 +1,80 @@
 body {
-    background-color: rgb(22, 47, 255)
+    background-color: aquamarine;
+    margin: 0;
+}
+ 
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+}
+ 
+header #logo {
+    width: 5%;
+    height: auto;
+}
+ 
+header .navbar {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ 
+header ul li {
+    list-style-type: none;
+}
+ 
+main h1 {
+    width: 100%;
+    text-align: center;
+}
+ 
+main p {
+    width: 60%;
+    margin: 50px auto;
+}
+ 
+main .table {
+    width: 30%;
+    margin: auto;
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+}
+ 
+main .table th,
+main .table td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid rgb(160 160 160);
+}
+ 
+main .table .students,
+main .table .score {
+    background-color: lavender;
+}
+ 
+.newStudentInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+#newStudentName,
+#newStudentScore {
+    width: 15em;
+    margin: 10px;
+}
+
+.removeStudent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#removeStudentName {
+    width: 15em;
+    margin: 10px;
 }

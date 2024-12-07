@@ -1,14 +1,71 @@
 <!DOCTYPE html>
 <html>
+ 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olá, tudo bem?</title>
+    <title>Happy Code 2</title>
     <link rel="stylesheet" href="../css/styles(5).css">
 </head>
+ 
 <body>
-    <script src="../js/index(5).js">
-        document.write("Hello, world!")
-    </script>
+    <header>
+        <img id="logo" src="../images/logo.png" alt="Logo">
+        <ul class="navbar">
+            <li>Home</li>
+            <li>Link1</li>
+            <li>Link2</li>
+            <li>Link3</li>
+        </ul>
+        <ul>
+            <li>test1</li>
+        </ul>
+    </header>
+    <main>
+        <h1>Alunos</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos nihil, quasi nostrum cumque magnam itaque
+            minus, illo, nulla molestias ut quod repellat beatae voluptates voluptas fugit alias officiis quia mollitia.
+        </p>
+        <table class="table">
+            <caption>
+                Score table
+            </caption>
+            <thead>
+                <tr>
+                    <th class="students" scope="col">Students</th>
+                    <th class="score" scope="col">Score</th>
+                </tr>
+            </thead>
+            <tbody class="tableBody">
+ 
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row">Average:</th>
+                    <td class="averageScore"></td>
+                </tr>
+            </tfoot>
+        </table>
+        <div class="newStudentInput">
+            <div>
+                <label for="newStudentName">Student name:</label>
+                <input id="newStudentName" type="text" placeholder="Enter student name ..." />
+            </div>
+            <div>
+                <label for="newStudentScore">Student score:</label>
+                <input id="newStudentScore" type="number" placeholder="Enter student score ..." />
+            </div>
+            <input id="addStudentButton" type="button" value="Add student">
+        </div>
+        <div class="removeStudent">
+            <div>
+                <label for="removeStudentName">Student name:</label>
+                <input id="removeStudentName" type="text" placeholder="Enter student name ..." />
+            </div> 
+            <input id="removeStudentButton" type="button" value="Remove student">
+        </div>
+    </main>
+    <script src="../js/index(5).js"></script>
 </body>
+ 
 </html>
