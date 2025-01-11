@@ -6,22 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Code 2</title>
     <link rel="stylesheet" href="../css/styles(5).css">
+    <script src="https://kit.fontawesome.com/6f78c0ad54.js" crossorigin="anonymous"></script>
 </head>
  
 <body>
     <header>
-        <img id="logo" src="../images/logo.png" alt="Logo">
+        <img id="logo" src="/images/logo.png" alt="Logo">
         <ul class="navbar">
-            <li>Home</li>
-            <li>Link1</li>
-            <li>Link2</li>
-            <li>Link3</li>
+            <li class="menu">
+                <p>Home</p>
+                <div class="square"></div>
+                <div class="dropdown-menu">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>    
+            </li>
+            <li class="menu">
+                <p>Link1</p>
+                <div class="square"></div>
+                <div class="dropdown-menu">
+                    <a href="#">Item1</a>
+                    <a href="#">Item2</a>
+                    <a href="#">Item3</a>
+                    <a href="#">Item4</a>
+                    <a href="#">Item5</a>
+                </div>
+            </li>
+            <li class="menu">
+                <p>Link2</p>
+                <div class="square">
+                <div class="dropdown-menu">
+                    <a href="#">Item1</a>
+                    <a href="#">Item2</a>
+                    <a href="#">Item3</a>
+                    <a href="#">Item4</a>
+                    <a href="#">Item5</a>
+                    <a href="#">Item6</a>
+                    <a href="#">Item7</a>
+                </div>
+            </li>
+            <li class="menu">
+                <p>Link3</p>
+                <div class="square">
+                <div class="dropdown-menu">
+                    <a href="#">Item1</a>
+                    <a href="#">Item2</a>
+                    <a href="#">Item3</a>
+                </div>
+            </li>
         </ul>
         <ul>
             <li>test1</li>
         </ul>
     </header>
     <main>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide"><img src="../images/Londres.png" alt="Londres, Reino Unido"></div>
+                <div class="slide"><img src="../images/Paris.png" alt="Paris, França"></div>
+                <div class="slide"><img src="../images/Bangkok.png" alt="Bangkok, Tailândia"></div>
+                <div class="slide"><img src="../images/Singapura.png" alt="Singapura"></div>
+                <div class="slide"><img src="../images/Hong Kong.png" alt="Hong Kong"></div>
+            </div>
+            <div class="controls">
+                <div id="prevBtn"><i class="fa-light fa-chevron-left"></i></div>
+                <div id="nextBtn"><i class="fa-light fa-chevron-right"></i></div>
+            </div>
+        </div>
         <h1>Alunos</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos nihil, quasi nostrum cumque magnam itaque
             minus, illo, nulla molestias ut quod repellat beatae voluptates voluptas fugit alias officiis quia mollitia.
@@ -66,6 +117,7 @@
         </div>
     </main>
     <script src="../js/index(5).js"></script>
+    <script src="../js/index(6).js"></script>
 </body>
  
 </html>
